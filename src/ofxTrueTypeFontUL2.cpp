@@ -2,7 +2,8 @@
 //--------------------------
 
 #include "ft2build.h"
-
+#include <fontconfig/fontconfig.h>
+#include <hb.h>
 #include <hb-ft.h>
 #include <hb-ot.h>
 #include <map>
@@ -85,7 +86,10 @@ typedef enum {
 #endif
 
 namespace ul2_ttf_utils{
-    
+
+// #ifdef TARGET_LINUX    
+	// FcInit();
+// #endif
 #ifdef TARGET_WIN32
 	typedef basic_string<uint32_t> ustring;
 #else
@@ -2001,7 +2005,7 @@ bool ofxTrueTypeFontUL2::initLibraries(){
 void ofxTrueTypeFontUL2::finishLibraries(){
 	if(librariesInitialized){
 #ifdef TARGET_LINUX
-		//FcFini();
+		// FcFini();
 #endif
 		FT_Done_FreeType(library);
 	}
