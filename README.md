@@ -1,4 +1,4 @@
-#ofxTrueTypeFontUL2
+# ofxTrueTypeFontUL2
 
 This is the class which extended ofTrueTypeFont. 
 The basic function is able to treat like ofTrueTypeFont.  
@@ -11,7 +11,7 @@ It enables to use various functions important in typography, such as ligature an
 * Supported box-layout and word-wrap.
 
 ---
-##Install
+## Install
 It has been tested in openframeworks 0.8.0 but, vflip does not yet support.(vs12 and osx)  
 Please add the source and library files to your project.
 
@@ -19,7 +19,7 @@ Please add the source and library files to your project.
 It may be an earlier than 2.5 version of FreeType that included openframeworks. In that case, copy the files in `vs_patch_freetype2.5`  to openframeworks.
 
 
-##Load Fonts
+## Load Fonts
 `bool loadFont(string filename, ... , bool useTexture=true,string scriptTagName="");`
 
 * scriptTagName  
@@ -27,7 +27,7 @@ http://www.microsoft.com/typography/otspec/scripttags.htm
 Default script font is applied if you do not specify. No problem in many cases.  
 ex) "arab"
 
-##Load mixed font  
+## Load mixed font  
 Use the following method to using a mixed font. 
 `bool loadSubFont(string filename,float sizeRate=1.0f, float baseLineRate=0.0f ,  int unicodeRangeStart=0x0000,int unicodeRangeEnd=0x0000 ,string scriptTagName="" );`
 
@@ -40,7 +40,7 @@ Specify the range of Unicode displayed with this font.
 ex on Arabic) `face.loadSubFont("Traditional Arabic",1,-0.04,0x0600,0x06FF);`  
 When the Unicode range is omitted, The font read behind is displayed by priority.  
 
-##Set text direction
+## Set text direction
 Specify the text direction. This is not a text alignments.  
 This feature is available languages that are written from right, such as Arabic, or vertical writing of Japanese.  
 Specify the direction of a new line in **subDirection**.
@@ -51,7 +51,7 @@ Specify the direction of a new line in **subDirection**.
 * UL2_TEXT_DIRECTION_BTT  ( Bottom to Top )
 
 
-##Rendering text (with alignment)
+## Rendering text (with alignment)
 Can text rendering by calling same functions as ofTrueTypeFont. These are layouted by baseline.  
 In addition, box layout and the alignment is available.
 `void drawString(string s, float x, float y,float width=0,float height=0,int textAlign=UL2_TEXT_ALIGN_INVALID);`
