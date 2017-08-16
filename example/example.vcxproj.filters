@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\testApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxTrueTypeFontUL2\src\ofxTrueTypeFontUL2.cpp">
+			<Filter>addons\ofxTrueTypeFontUL2\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTrueTypeFontUL2">
+			<UniqueIdentifier>{4AD1C3BA-1F54-235C-7022-A0A2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTrueTypeFontUL2\src">
+			<UniqueIdentifier>{E94C0258-59CD-6A84-326A-3C83}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTrueTypeFontUL2\libs">
+			<UniqueIdentifier>{8014E18F-8F4D-C2CD-2FC7-B8B1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTrueTypeFontUL2\libs\harfbuzz">
+			<UniqueIdentifier>{D0457E86-5B31-7F64-BDB6-7E3D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTrueTypeFontUL2\libs\harfbuzz\include">
+			<UniqueIdentifier>{59EC0DF5-87C0-7E9B-4986-6EB7}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\testApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\src\ofxTrueTypeFontUL2.h">
+			<Filter>addons\ofxTrueTypeFontUL2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-blob.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-buffer.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-common.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-deprecated.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-face.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-font.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-ft.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-glib.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-ot-layout.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-ot-tag.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-ot.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-set.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-shape-plan.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-shape.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-unicode.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb-version.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTrueTypeFontUL2\libs\harfbuzz\include\hb.h">
+			<Filter>addons\ofxTrueTypeFontUL2\libs\harfbuzz\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
