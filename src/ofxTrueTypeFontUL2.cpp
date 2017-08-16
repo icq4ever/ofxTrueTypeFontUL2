@@ -834,9 +834,9 @@ public:
 	float strokeWidth;
     
 #ifdef TARGET_OPENGLES
-	GLint blend_src, blend_dst_;
-	GLboolean blend_enabled_;
-	GLboolean texture_2d_enabled_;
+	GLint blend_src, blend_dst;
+	GLboolean blend_enabled;
+	GLboolean texture_2d_enabled;
 #endif
 };
 
